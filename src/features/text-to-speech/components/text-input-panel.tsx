@@ -1,16 +1,11 @@
 import { Textarea } from "@/components/ui/textarea";
-import { useState } from "react";
-import {
-  COST_PER_UNIT,
-  TEXT_MAX_LENGTH,
-} from "@/app/features/text-to-speech/data/constants";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Coins } from "lucide-react";
 import { useTypedAppFormContext } from "@/hooks/use-app-form";
 import { ttsFormOptions } from "./text-to-speech-form";
 import { useStore } from "@tanstack/react-form";
 import { GenerateButton } from "./generate-button";
+import { TEXT_MAX_LENGTH, COST_PER_UNIT } from "@/features/text-to-speech/data/constants";
 
 export function TextInputPanel() {
   const form = useTypedAppFormContext(ttsFormOptions);

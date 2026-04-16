@@ -1,6 +1,6 @@
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { cookies } from "next/headers";
-import { DashboardSidebar } from "../features/dashboard/components/dashboard-sidebar";
+import { DashboardSidebar } from "../../features/dashboard/components/dashboard-sidebar";
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
   const cookieStore = await cookies();
