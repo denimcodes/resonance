@@ -1,12 +1,12 @@
 "use client";
 
-import { TextInputPanel } from "@/app/features/text-to-speech/components/text-input-panel";
-import { VoicePreviewPlaceholder } from "@/app/features/text-to-speech/components/voice-preview-placeholder";
-import { SettingsPanel } from "@/app/features/text-to-speech/components/settings-panel";
+import { TextInputPanel } from "@/features/text-to-speech/components/text-input-panel";
+import { VoicePreviewPlaceholder } from "@/features/text-to-speech/components/voice-preview-placeholder";
+import { SettingsPanel } from "@/features/text-to-speech/components/settings-panel";
 import {
   defaultTTSValues,
   TextToSpeechForm,
-} from "../components/text-to-speech-form";
+} from "@/features/text-to-speech/components/text-to-speech-form";
 
 export function TextToSpeechView() {
   return (

@@ -6,8 +6,8 @@ import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { Slider } from "@/components/ui/slider";
 import { useTypedAppFormContext } from "@/hooks/use-app-form";
 
-import { sliders } from "@/app/features/text-to-speech/data/sliders";
-import { ttsFormOptions } from "@/app/features/text-to-speech/components/text-to-speech-form";
+import { sliders } from "@/features/text-to-speech/data/sliders";
+import { ttsFormOptions } from "@/features/text-to-speech/components/text-to-speech-form";
 
 export function SettingsPanelSettings() {
   const form = useTypedAppFormContext(ttsFormOptions);
