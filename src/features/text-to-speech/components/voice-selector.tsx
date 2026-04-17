@@ -20,7 +20,7 @@ import {
 import { useTypedAppFormContext } from "@/hooks/use-app-form";
 import { VoiceAvatar } from "@/components/voice-avatar/voice-avatar";
 
-import { useTTSVoices } from "@/features/text-to-speech/contexts/tts-voice-context";
+import { useTTSVoices } from "@/features/text-to-speech/contexts/tts-voices-context";
 import { ttsFormOptions } from "./text-to-speech-form";
 
 export function VoiceSelector() {
