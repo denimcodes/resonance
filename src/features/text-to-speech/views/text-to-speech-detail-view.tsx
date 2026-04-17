@@ -9,7 +9,7 @@ import {
   TextToSpeechForm,
   type TTSFormValues
 } from "@/features/text-to-speech/components/text-to-speech-form";
-import { TTSVoicesProvider } from "@/features/text-to-speech/contexts/tts-voice-context";
+import { TTSVoicesProvider } from "@/features/text-to-speech/contexts/tts-voices-context";
 import { VoicePreviewPanel } from "@/features/text-to-speech/components/voice-preview-panel";
 import { VoicePreviewMobile } from "@/features/text-to-speech/components/voice-preview-mobile";
 
