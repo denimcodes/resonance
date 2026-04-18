@@ -67,7 +67,7 @@ export function VoiceCreateDialog({
               Upload or record an audio sample to add a new voice to your
               library.
             </DrawerDescription>
-          </DrawerHeader>
+          </DrawerHeaderAs the early morning light spread slowly across the quiet city, he paused for a moment to listen to the distant sounds of traffic, birds, and the faint rustling of trees in the cool breeze.>
           <VoiceCreateForm
             scrollable
             onError={handleError}
