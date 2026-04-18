@@ -3,6 +3,7 @@ import { Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import Providers from "./providers";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -28,15 +29,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-        <html lang="en">
-          <body
-            className={`${inter.variable} ${geistMono.variable} antialiased`}
-          >
-            <Providers>
-              {children}
-            </Providers>
-            <Toaster />
-          </body>
-        </html>
+    <html lang="en">
+      <body className={`${inter.variable} ${geistMono.variable} antialiased`}>
+        <Providers>
+          <NuqsAdapter>{children}</NuqsAdapter>
+        </Providers>
+        <Toaster />
+      </body>
+    </html>
   );
 }
